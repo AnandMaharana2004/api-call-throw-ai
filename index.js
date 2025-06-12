@@ -1,4 +1,5 @@
-
+import { configDotenv } from 'dotenv';
+configDotenv()
 import OpenAI from 'openai';
 import readlineSync from "readline-sync";
 
